@@ -6,4 +6,8 @@ public class Woman {
         this.age = age;
         this.looks = looks;
     }
+
+    public void womanInfo() {
+        System.out.println(age + " " + looks);
+    }
 }
